@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Hide ZH repository breadcrumbs",
+    "version": "0.0.1",
+    "description": "I do not like that repository breadcrumbs",
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "matches": ["https://github.com/*"]
+    }]
+  }
